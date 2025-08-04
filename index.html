@@ -1,0 +1,1513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inchi</title>
+    <meta name="title" content="inchi">
+    <meta name="description" content="ecommerce template using html css js">
+    <LINK REL="STYLESHEET" HREF="/style.css">
+    <Link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+        <Link rel="preconnect" href="https://fonts.googleapis.com">
+        <Link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:wght@400;500;700&
+        display=swap"
+        rel="stylesheet">
+
+        <link rel="preload" as="image" href="/photos/hero-product-1.jpg">
+        <link rel="preload" as="image" href="/photos/hero-product-2.jpg">
+        <link rel="preload" as="image" href="/photos/hero-product-3.jpg">
+        <link rel="preload" as="image" href="/photos/hero-product-4.jpg">
+        <link rel="preload" as="image" href="/photos/hero-product-5.jpg">
+
+</head>
+<body>
+<header class="header" data-header>
+    <div class="container">
+        <div class="input-wrapper">
+            <input type="search" name="search" placeholder="search anything.."  class="input-field">
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <a href="#"class="logo" >inchi.</a>
+        <div class="header-action">
+            <button class="header-action-btn" aria-label="user">
+                <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <button class="header-action-btn" aria-label="favorite list">
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                <span class="btn-badges">0</span>
+            </button>
+
+            <button class="header-action-btn" aria-label="cart">
+                <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                <span class="btn-badges">0</span>
+            </button>
+            <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+            
+        </div>
+    </div>
+</header>   
+
+<div class="sidebar" data-navbar>
+    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+    </button>
+
+    <div class="wrapper">
+        <ul class="sidebar-list">
+            <li>
+                <p class="sidebar-list-title">Language</p>
+            </li>
+            <li>
+               <a href="#" class="sidebar-link">English</a>
+            </li>
+
+            <li>
+                <a href="#" class="sidebar-link">French</a>
+             </li>
+
+             <li>
+                <a href="#" class="sidebar-link">Arabic</a>
+             </li>
+            
+        </ul>
+
+        <ul class="sidebar-list">
+            <li>
+                <p class="sidebar-list-title">Currency</p>
+            </li>
+            <li>
+               <a href="#" class="sidebar-link">USD</a>
+            </li>
+
+            <li>
+                <a href="#" class="sidebar-link">Euro</a>
+             </li>
+
+             <li>
+                <a href="#" class="sidebar-link">Pound</a>
+             </li>
+            
+        </ul>
+    </div>
+
+    <div class="navbar">
+        <ul class="navbar-list">
+             <li class="navbar-items">
+                <a href="#home" class="navbar-link" data-nav-link>Home</a>
+             </li>
+
+             <li class="navbar-items">
+                <a href="#about" class="navbar-link" data-nav-link >About</a>
+             </li>
+
+             <li class="navbar-items">
+                <a href="#products" class="navbar-link" data-nav-link>Products</a>
+             </li>
+             <li class="navbar-items">
+                <a href="#blogs" class="navbar-link" data-nav-link >Blogs</a>
+             </li>
+        </ul>
+    </div>
+
+    <ul class="contact-list">
+
+        <li>
+            <p class="contact-list-title">Contact Us</p>
+        </li>
+
+        <li class="contact-item">
+            <address class="address">
+                71, park street, kolkata, west bengal.
+            </address>
+        </li>
+
+        <li class="contact-item">
+            <a href="mailto:xyz@gmail.com" class="contact-link">support.center@inchi.com</a>
+        </li>
+
+        <li class="contact-item">
+            <a href="tel:xyz@gmail.com" class="contact-link">00-098-01229</a>
+        </li>
+    </ul>
+
+    <div class="social-wrapper">
+        <p class="social-list-title">Follow Us on Socials</p>
+        <ul class="social-list">
+            <li>
+                <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="social-link">
+                    <ion-icon name="logo-tumblr"></ion-¡con>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<div class="overlay" data-overlay  data-nav-toggle></div>
+
+<!--
+hero section
+-->
+<main>
+    <article>
+        <section class="section hero" id="hero" aria-level="home">
+            <div class="container">
+                <ul class="hero-list">
+                    <li>
+                        <div class="hero-card">
+                            <figure class="card-banner img-holder" style="--width: 285; --height: 396;">
+                                <img src="./photos/Screenshot 2025-08-04 at 9.36.01 PM.png" width="285" height="396" alt="Art Deco Home"
+                                  class="img-cover">
+                              </figure>
+
+                            <div class="card-content">
+                                <h3>
+                                    <a href="#"class="card-title">
+                                        Art Deco Home.
+                                    </a>
+                                </h3>
+                                <p class="card-text">Decoration</p>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li class="colspan-2">
+                        <div class="hero-card">
+                            <figure class="card-banner img-holder" style="--width:568 ;--height:389" >
+
+                                <img src="/photos/Screenshot 2025-08-04 at 9.26.56 PM.png" alt="side table" width="568" height="389" class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3>
+                                    <a href="#"class="card-title">
+                                        Cabinet
+                                    </a>
+                                </h3>
+                                <p class="card-text">Decoration</p>
+                            </div>
+
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <div class="hero-card">
+                            <figure class="card-banner img-holder" style="--width: 285; --height: 396;">
+                                <img src="./photos/hero-product-3.jpg" width="285" height="396" alt="flower vase"
+                                  class="img-cover">
+                              </figure>
+
+                            <div class="card-content">
+                                <h3>
+                                    <a href="#"class="card-title">
+                                        Vase of Flowers.
+                                    </a>
+                                </h3>
+                                <p class="card-text">Decoration</p>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li class="colspan-2">
+                        <div class="hero-card">
+                            <figure class="card-banner img-holder" style="--width:580 ;--height:213" >
+
+                                <img src="/photos/hero-product-4.jpg" alt="side table" width="580" height="213" class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3>
+                                    <a href="#"class="card-title">
+                                        Wood Eggs.
+                                    </a>
+                                </h3>
+                                <p class="card-text">Decoration</p>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li class="colspan-2">
+                        <div class="hero-card">
+                            <figure class="card-banner img-holder" style="--width:580 ;--height:213" >
+
+                                <img src="/photos/hero-product-5.jpg" alt="side table" width="580" height="213" class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <h3>
+                                    <a href="#"class="card-title">
+                                        Table wood pine.
+                                    </a>
+                                </h3>
+                                <p class="card-text">Furniture</p>
+                            </div>
+
+                        </div>
+                    </li>
+
+
+                </ul>
+
+            </div>
+
+        </section>
+
+        <section class="section about" id="about" aria-lable="about">
+            <div class="container">
+                <h2 class="section-title">
+                    inchi store
+                </h2>
+                <p class="section-text">
+                    We're not just a furniture brand;
+                    we're a dream-weaving, space-
+                    transforming squad! Hailing from
+                    the vibrant streets of Kolkata, India,
+                    Inchi is where top-notch designs
+                    meet cutting-edge manufacturing.
+                    Crafted by the esteemed design
+                    studio BlueMasons, our furniture
+                    dances with functionality and
+                    beauty without breaking the bank.
+                    Welcome to the world of Inchi -
+                    where every inch counts!
+                </p>
+
+                <div class="about-card">
+                    <figure class="card-banner img-holder" style="--width:1170 ; --height:450 ">
+                        <img src="/photos/about-banner.jpg" width="1170" height="450" loading="lazy" alt="about banner img" class="img-cover">
+                    </figure>
+
+                    <button class="play-btn" aria-label="play video">
+                        <ion-icon name="play-circle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section product" id="product" aria-label="product">
+            <div class="container">
+                <div class="title-wrapper">
+                    <h2 class="h2 section-title">popular product</h2>
+
+                    <ul class="filter-btn-list">
+                        <li class="filter-btn-item">
+                            <button class="filter-btn " data-filter-btn="all">
+                                All Products.
+                            </button>
+                        </li>
+
+                        <li class="filter-btn-item">
+                            <button class="filter-btn active" data-filter-btn="accessory">
+                                Accessory.
+                            </button>
+                        </li>
+
+                     <li class="filter-btn-item">
+                            <button class="filter-btn active" data-filter-btn="decoration">
+                                Decoration
+                            </button>
+                        </li>
+
+                        <li class="filter-btn-item">
+                            <button class="filter-btn active" data-filter-btn="furniture">
+                                Furniture
+                            </button>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <ul class="grid-list product-list" data-filter="all">
+                    <li class="decoration">
+                        <div class="product-card">
+                            <a href="#" class="card-banner img-holder has-before" style="--width: ; --height: ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.15.40 PM.png" width="300" height="300" loading="lazy" alt="item" class="img-cover">
+                                <ul class="card-actionlist">
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to wishlist" title=" add to wishlist">
+                                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                </ul>
+
+                                <ul class="badge-list">
+                                    <li>
+
+                                        <div class="badge orange">sale</div>
+                                    </li>
+
+                                    <li>
+
+                                        <div class="badge cyan">10%</div>
+                                    </li>
+                                </ul>
+                            </a>
+
+
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        Fabric Bed
+                                    </a>
+                                </h3>
+                                <div class="card-price">
+                                    <del class="del">$19.00</del>
+                                    <data value="10" class="price">$10.00</data>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="accessory">
+                        <div class="product-card">
+                            <a href="#" class="card-banner img-holder has-before" style="--width: ; --height: ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.18.59 PM.png" width="300" height="300" loading="lazy" alt="item" class="img-cover">
+                                <ul class="card-actionlist">
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to wishlist" title=" add to wishlist">
+                                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                </ul>
+
+                               <div class="card-badge">out of stock</div>
+                            </a>
+
+
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        Laminated bed
+                                    </a>
+                                </h3>
+                                <div class="card-price">
+                                     
+                                    <data value="30" class="price">$30.00</data>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="decoration">
+                        <div class="product-card">
+                            <a href="#" class="card-banner img-holder has-before" style="--width: ; --height: ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.21.05 PM.png" width="300" height="300" loading="lazy" alt="artificial pot" class="img-cover">
+                                <ul class="card-actionlist">
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to wishlist" title=" add to wishlist">
+                                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                </ul>
+
+                            </a>
+
+
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        Side Table 
+                                    </a>
+                                </h3>
+                                <div class="card-price">
+                                     
+                                    <data value="10" class="price">$10.00</data>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="accessory">
+                        <div class="product-card">
+                            <a href="#" class="card-banner img-holder has-before" style="--width: ; --height: ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.22.21 PM.png" width="300" height="300" loading="lazy" alt="dark green" class="img-cover">
+                                <ul class="card-actionlist">
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to wishlist" title=" add to wishlist">
+                                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                </ul>
+
+                            </a>
+
+
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        Wardrobes
+                                    </a>
+                                </h3>
+                                <div class="card-price">
+                                     
+                                    <data value="17.10" class="price">$17.10</data>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="accessory">
+                        <div class="product-card">
+                            <a href="#" class="card-banner img-holder has-before" style="--width: ; --height: ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.23.15 PM.png" width="300" height="300" loading="lazy" alt="Drinking Glasses" class="img-cover">
+                                <ul class="card-actionlist">
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to wishlist" title=" add to wishlist">
+                                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                </ul>
+
+                            </a>
+
+
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        Dressers
+                                    </a>
+                                </h3>
+                                <div class="card-price">
+                                     
+                                    <data value="11.10" class="price">$11.10</data>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="furniture">
+                        <div class="product-card">
+                            <a href="#" class="card-banner img-holder has-before" style="--width: ; --height: ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.25.12 PM.png" width="300" height="300" loading="lazy" alt="Helen chair" class="img-cover">
+                                <ul class="card-actionlist">
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to wishlist" title=" add to wishlist">
+                                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                </ul>
+
+                            </a>
+
+
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        TV Cabinet
+                                    </a>
+                                </h3>
+                                <div class="card-price">
+                                     
+                                    <data value="29.50" class="price">$29.50</data>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="accessory">
+                        <div class="product-card">
+                            <a href="#" class="card-banner img-holder has-before" style="--width: ; --height: ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.26.56 PM.png" width="300" height="300" loading="lazy" alt="High Quality Glass Bottle" class="img-cover">
+                                <ul class="card-actionlist">
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to wishlist" title=" add to wishlist">
+                                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                </ul>
+
+                            </a>
+
+
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        Shutter Cabinet
+                                    </a>
+                                </h3>
+                                <div class="card-price">
+                                     
+                                    <data value="10.10" class="price">$10.10</data>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="accessory">
+                        <div class="product-card">
+                            <a href="#" class="card-banner img-holder has-before" style="--width: ; --height: ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.27.49 PM.png" width="300" height="300" loading="lazy" alt="Living Room & Bedroom Lights" class="img-cover">
+                                <ul class="card-actionlist">
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to wishlist" title=" add to wishlist">
+                                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                </ul>
+
+                            </a>
+
+
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        Cabinet
+                                    </a>
+                                </h3>
+                                <div class="card-price">
+                                     
+                                    <data value="15" class="price">$15.00</data>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="furniture">
+                        <div class="product-card">
+                            <a href="#" class="card-banner img-holder has-before" style="--width: ; --height: ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.28.54 PM.png" width="300" height="300" loading="lazy" alt="Nancy Chair" class="img-cover">
+                                <ul class="card-actionlist">
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to wishlist" title=" add to wishlist">
+                                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                </ul>
+
+                            </a>
+
+
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        Open Cabinet
+                                    </a>
+                                </h3>
+                                <div class="card-price">
+                                     
+                                    <data value="10.50" class="price">$10.50</data>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="furniture">
+                        <div class="product-card">
+                            <a href="#" class="card-banner img-holder has-before" style="--width: ; --height: ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.30.15 PM.png" width="300" height="300" loading="lazy" alt="Simple Chair" class="img-cover">
+                                <ul class="card-actionlist">
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to wishlist" title=" add to wishlist">
+                                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                </ul>
+
+                            </a>
+
+
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        EverTone Wardrobe
+                                    </a>
+                                </h3>
+                                <div class="card-price">
+                                     
+                                    <data value="40" class="price">$40</data>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="decoration">
+                        <div class="product-card">
+                            <a href="#" class="card-banner img-holder has-before" style="--width: ; --height: ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.31.56 PM.png" width="300" height="300" loading="lazy" alt="Smooth Disk" class="img-cover">
+                                <ul class="card-actionlist">
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to wishlist" title=" add to wishlist">
+                                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                </ul>
+
+                            </a>
+
+
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        3Door carcase
+                                    </a>
+                                </h3>
+                                <div class="card-price">
+                                     
+                                    <data value="46" class="price">$46</data>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+
+                    <li class="furniture">
+                        <div class="product-card">
+                            <a href="#" class="card-banner img-holder has-before" style="--width: ; --height: ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.32.37 PM.png" width="300" height="300" loading="lazy" alt="Table Black" class="img-cover">
+                                <ul class="card-actionlist">
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to wishlist" title=" add to wishlist">
+                                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                </ul>
+
+                            </a>
+
+
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        Dresser Wardrobe
+                                    </a>
+                                </h3>
+                                <div class="card-price">
+                                     
+                                    <data value="67" class="price">$67.00</data>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="furniture">
+                        <div class="product-card">
+                            <a href="#" class="card-banner img-holder has-before" style="--width: ; --height: ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.33.52 PM.png" width="300" height="300" loading="lazy" alt="Table wood Pine" class="img-cover">
+                                <ul class="card-actionlist">
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to wishlist" title=" add to wishlist">
+                                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                </ul>
+
+                            </a>
+
+
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        Table
+                                    </a>
+                                </h3>
+                                <div class="card-price">
+                                     
+                                    <data value="12.50" class="price">$12.50</data>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="accessory">
+                        <div class="product-card">
+                            <a href="#" class="card-banner img-holder has-before" style="--width: ; --height: ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.34.58 PM.png" width="300" height="300" loading="lazy" alt="Teapot with black tea" class="img-cover">
+                                <ul class="card-actionlist">
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to wishlist" title=" add to wishlist">
+                                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                </ul>
+
+                            </a>
+
+
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        Center Table
+                                    </a>
+                                </h3>
+                                <div class="card-price">
+                                     
+                                    <data value="15" class="price">$15.00</data>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="decoration">
+                        <div class="product-card">
+                            <a href="#" class="card-banner img-holder has-before" style="--width: ; --height: ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.36.58 PM.png" width="300" height="300" loading="lazy" alt="Unique Decoration" class="img-cover">
+                                <ul class="card-actionlist">
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to wishlist" title=" add to wishlist">
+                                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                </ul>
+
+                            </a>
+
+
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        Unique Decoration
+                                    </a>
+                                </h3>
+                                <div class="card-price">
+                                     
+                                    <data value="15" class="price">$15</data>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="decoration">
+                        <div class="product-card">
+                            <a href="#" class="card-banner img-holder has-before" style="--width: ; --height: ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.38.25 PM.png" width="300" height="300" loading="lazy" alt="Vase of Flower" class="img-cover">
+                                <ul class="card-actionlist">
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to wishlist" title=" add to wishlist">
+                                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                </ul>
+
+                            </a>
+
+
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        Decoration Table
+                                    </a>
+                                </h3>
+                                <div class="card-price">
+                                     
+                                    <data value="37" class="price">$37</data>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="decoration">
+                        <div class="product-card">
+                            <a href="#" class="card-banner img-holder has-before" style="--width: ; --height: ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.39.22 PM.png" width="300" height="300" loading="lazy" alt="Wood Eggs" class="img-cover">
+                                <ul class="card-actionlist">
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to wishlist" title=" add to wishlist">
+                                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                </ul>
+
+                            </a>
+
+
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                      Show Cabinet
+                                    </a>
+                                </h3>
+                                <div class="card-price">
+                                     
+                                    <data value="19" class="price">$19</data>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="decoration">
+                        <div class="product-card">
+                            <a href="#" class="card-banner img-holder has-before" style="--width: ; --height: ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.42.09 PM.png" width="300" height="300" loading="lazy" alt="Wooden Box" class="img-cover">
+                                <ul class="card-actionlist">
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to wishlist" title=" add to wishlist">
+                                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                </ul>
+
+                            </a>
+
+
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                      Bed
+                                    </a>
+                                </h3>
+                                <div class="card-price">
+                                     
+                                    <data value="27" class="price">$27</data>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="accessory">
+                        <div class="product-card">
+                            <a href="#" class="card-banner img-holder has-before" style="--width: ; --height: ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.41.26 PM.png" width="300" height="300" loading="lazy" alt="Wooden cups" class="img-cover">
+                                <ul class="card-actionlist">
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to cart" title=" add to cart">
+                                            <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                    <li>
+                                        <button class="card-action-btn" aria-label="add to wishlist" title=" add to wishlist">
+                                            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                        </button>
+
+                                    </li>
+
+                                </ul>
+
+                            </a>
+
+
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">
+                                        combo
+                                    </a>
+                                </h3>
+                                <div class="card-price">
+                                     
+                                    <data value="79" class="price">$79.00</data>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+                </ul>
+
+            </div>
+
+
+        </section>
+
+        <!-- blog -->
+         <section class="section blog" id="blog" aria-label="blog">
+            <div class="container">
+                <div class="title-wrapper">
+                    <h2 class="h2 sectio-title">
+                        Explore our Blogs
+                    </h2>
+                    <a href="#" class="btn-link">
+                        <span class="span">View all</span>
+                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+                </div>
+                <ul class="grid-list">
+                    <li>
+                        <div class="blog-card">
+                            <div class="card-banner img-holder" style="--width: 374; --height:243; ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.43.06 PM.png" width="374" height="243" loading="lazy" alt="blog-1" class="img cover">
+                                <a href="#" class="card-btn"><span class="span">Read more</span>
+                                    <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Unique products that will impress your home alway.</a>
+                                </h3>
+                                <ul class="card-meta-list">
+                                    <li class="card-meta-item">
+                                        <time datetime="2024-06-06" class="class-meta-text">June 06,2024</time>
+                                    </li>
+                                    <li class="card-meta-item">
+                                        <a href="#" class="card-meta-text">Admin</a>
+                                    </li>
+                                    <li class="card-meta-item">
+                                        in <a href="#" class="card-meta-text">deco</a>
+                                    </li>
+                                </ul>
+                               
+                                   
+                                
+
+
+
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="blog-card">
+                            <div class="card-banner img-holder" style="--width: 374; --height:243; ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.43.57 PM.png" width="374" height="243" loading="lazy" alt="Navy Blue & White Striped Area Rugs" class="img cover">
+                                <a href="#" class="card-btn"><span class="span">Read more</span>
+                                    <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Navy Blue & White Striped Area Rugs.</a>
+                                </h3>
+                                <ul class="card-meta-list">
+                                    <li class="card-meta-item">
+                                        <time datetime="2024-07-16" class="class-meta-text">July 16,2024</time>
+                                    </li>
+                                    <li class="card-meta-item">
+                                        <a href="#" class="card-meta-text">Admin</a>
+                                    </li>
+                                    <li class="card-meta-item">
+                                        in <a href="#" class="card-meta-text">deco</a>
+                                    </li>
+                                </ul>
+                               
+                                   
+                                
+
+
+
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="blog-card">
+                            <div class="card-banner img-holder" style="--width: 374; --height:243; ">
+                                <img src="/photos/Screenshot 2025-08-04 at 9.44.31 PM.png" width="374" height="243" loading="lazy" alt="Woodex White Coated Staircase Floating" class="img cover">
+                                <a href="#" class="card-btn"><span class="span">Read more</span>
+                                    <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Woodex White Coated Staircase Floating.</a>
+                                </h3>
+                                <ul class="card-meta-list">
+                                    <li class="card-meta-item">
+                                        <time datetime="2024-11-16" class="class-meta-text">November 16,2024</time>
+                                    </li>
+                                    <li class="card-meta-item">
+                                        <a href="#" class="card-meta-text">Admin</a>
+                                    </li>
+                                    <li class="card-meta-item">
+                                        in <a href="#" class="card-meta-text">deco</a>
+                                    </li>
+                                </ul>
+                               
+                                   
+                                
+
+
+
+                            </div>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+         </section>
+
+         <!-- newsettler -->
+
+         <section class="section newsletter" aria-label="newsletter">
+            <div class="container">
+                <div class="newsletter-card">
+                    <div class="card-content">
+                        <h2 class="h2 section-title">
+                            Our Newsletter
+                        </h2>
+                        <p>Subscribe our newsletter and get discount 50% off</p>
+                    </div>
+                    <form action="" class="card-form">
+                        <input type="email" name="email_name" placeholder = "Your email address" required class="email-field">
+                        <button type="submit" class="newsletter-btn" aria-label="Subscribe"><ion-icon name="arrow-forward" aria-hidden="true"></ion-icon></button>
+
+                    </form>
+
+                </div>
+            </div>
+
+
+
+         </section>
+
+         <footer class="footer">
+            <div class="container">
+                <div class="footer-top section">
+                    <div class="footer-brand">
+                        <a href="#" class="logo">inchi</a>
+
+                        <ul>
+                            <li class="footer-list-item">
+
+                                <ion-icon name="location-sharp" aria-hidden="true"></ion-icon>
+                                <address class="address">Woodex, Chicago, USA 2022</address>
+                            </li>
+
+                            <li class="footer-list-item">
+                                <ion-icon name="call-sharp" aria-hidden="true"></ion-icon>
+                                <a href="tel:+1234456799" class="footer-link">+1234456799</a>
+                            </li>
+                            <li>
+                                <ul class="social-list">
+                                    <li>
+                                        <a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="social-link"><ion-icon name="logo-tumblr"></ion-icon></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="footer-list">
+
+                        <li>
+                          <p class="footer-list-title">Help & Information</p>
+                        </li>
+              
+                        <li>
+                          <a href="#" class="footer-link">Help & Contact Us</a>
+                        </li>
+              
+                        <li>
+                          <a href="#" class="footer-link">Returns & Refunds</a>
+                        </li>
+              
+                        <li>
+                          <a href="#" class="footer-link">Online Stores</a>
+                        </li>
+              
+                        <li>
+                          <a href="#" class="footer-link">Terms & Conditions</a>
+                        </li>
+              
+                      </ul>
+
+                      <ul class="footer-list">
+
+                        <li>
+                          <p class="footer-list-title">About Us</p>
+                        </li>
+              
+                        <li>
+                          <a href="#" class="footer-link">About Us</a>
+                        </li>
+              
+                        <li>
+                          <a href="#" class="footer-link">What We Do</a>
+                        </li>
+              
+                        <li>
+                          <a href="#" class="footer-link">FAQ Page</a>
+                        </li>
+              
+                        <li>
+                          <a href="#" class="footer-link">Contact Us</a>
+                        </li>
+              
+                      </ul>
+                      <div class="footer-list">
+
+                        <p class="footer-list-title">Newsletter</p>
+              
+                        <form action="" class="footer-form">
+                          <input type="email" name="email_address" placeholder="Your email address" required class="email-field">
+              
+                          <button type="submit" class="footer-form-btn">
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                          </button>
+                        </form>
+              
+                        <div class="wrapper">
+              
+                          <a href="#" class="footer-link">Term & Condition</a>
+                          <a href="#" class="footer-link">Policy</a>
+                          <a href="#" class="footer-link">Map</a>
+              
+                        </div>
+              
+                      </div>
+              
+                    </div>
+              
+                    <div class="footer-bottom">
+              
+                      <p class="copyright">
+                        &copy; 2022 All Rights Reserved by <a href="#" class="copyright-link">codewithsadee</a>.
+                      </p>
+              
+
+                </div>
+            </div>
+         </footer>
+
+
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+    </article>
+</main>
+
+
+
+
+
+
+    
+
+
+<script src="/script.js" defer></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
